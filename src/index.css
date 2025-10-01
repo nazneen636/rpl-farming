@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --color-green: #2d5016;
+  --font-rubik: "Rubik", sans-serif;
+  --font-alan: "Alan Sans", sans-serif;
+}
