@@ -73,7 +73,7 @@ const CropDetails = () => {
           "Collection of guides and tutorials covering various aspects of farming practices, techniques, and methodologies."
         }
       />
-      <div className="grid grid-cols-3 gap-4 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
         {cropDetailsList?.map((item) => (
           <div key={item.id} className="">
             <CropDetailsCard
