@@ -71,7 +71,7 @@ const PestControl = () => {
               title={item.title}
               image={item.img}
               badge={item.badge}
-              contents={item.contents}
+              contents={item.content}
             />
           </div>
         ))}
