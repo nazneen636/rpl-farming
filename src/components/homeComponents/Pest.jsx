@@ -3,7 +3,9 @@ import Title from "../common/Title";
 import GuidesCard from "../common/GuidesCard";
 import g1 from "/public/g1.jpg";
 import g2 from "/public/g2.jpg";
+import vegetables from "/public/vegetables-1.jpg";
 import g3 from "/public/vegetables.jpg";
+import fruit from "/public/fruit.jpg";
 
 const guideList = [
   {
@@ -25,6 +27,30 @@ const guideList = [
   {
     id: 3,
     img: g3,
+    title: "Organic Remedies",
+    badge: "Strategy",
+    contents:
+      "Comprehensive guide to organic farming methods, certification, and sustainable practices.",
+  },
+  {
+    id: 3,
+    img: fruit,
+    title: "Organic Remedies",
+    badge: "Strategy",
+    contents:
+      "Comprehensive guide to organic farming methods, certification, and sustainable practices.",
+  },
+  {
+    id: 3,
+    img: vegetables,
+    title: "Organic Remedies",
+    badge: "Strategy",
+    contents:
+      "Comprehensive guide to organic farming methods, certification, and sustainable practices.",
+  },
+  {
+    id: 3,
+    img: fruit,
     title: "Organic Remedies",
     badge: "Strategy",
     contents:

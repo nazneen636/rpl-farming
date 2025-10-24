@@ -4,6 +4,7 @@ import potato from "/public/potato.jpg";
 import mango from "/public/mango.jpg";
 import rice from "/public/rice.jpg";
 import sugarcane from "/public/sugarcane.jpg";
+import cotton from "/public/cotton.jpg";
 import tomato from "/public/tomato.png";
 import wheat from "/public/wheat.png";
 import Title from "../common/Title";
@@ -12,6 +13,24 @@ const cropDetailsList = [
   {
     id: 1,
     img: rice,
+    title: "Rice",
+    badge: "Grains",
+    varieties: "Basmati, Jasmine, Arborio",
+    Soil: "Clay loam, pH 5.5-7.0",
+    Season: "Monsoon (June-July)",
+  },
+  {
+    id: 1,
+    img: sugarcane,
+    title: "Rice",
+    badge: "Grains",
+    varieties: "Basmati, Jasmine, Arborio",
+    Soil: "Clay loam, pH 5.5-7.0",
+    Season: "Monsoon (June-July)",
+  },
+  {
+    id: 1,
+    img: cotton,
     title: "Rice",
     badge: "Grains",
     varieties: "Basmati, Jasmine, Arborio",
